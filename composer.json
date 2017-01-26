@@ -1,0 +1,20 @@
+{
+  "name": "loborec/yii-shortcuts",
+  "description": "",
+  "keywords": ["php", "yii", "functions", "shortcuts"],
+  "type": "library",
+  "homepage": "https://github.com/loborec/yii-shortcuts",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dubravko Loborec",
+      "homepage": "http://www.DubravkoLoborec.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+   "autoload": {
+    "files": ["shortcuts.php"]
+  }
+}
