@@ -416,7 +416,7 @@
     * @return string
     */
     function sql_grid($controller, $params=array()){
-        return DSqlGrid::sql_grid($controller, $params);   
+        return DSQLGrid::render($controller, $params);   
     }
 
     /**
