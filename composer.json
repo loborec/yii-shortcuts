@@ -15,6 +15,6 @@
     "php": ">=5.6.0"
   },
    "autoload": {
-    "files": ["shortcuts.php"]
+    "files": ["src/shortcuts.php"]
   }
 }
