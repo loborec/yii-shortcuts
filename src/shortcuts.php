@@ -72,6 +72,10 @@
         return Yii::app()->user->id; 
     }
 
+    function user_host_address(){ 
+        return Yii::app()->getRequest()->getUserHostAddress();
+    }
+    
     /**
     * Function logged checks if user is logged or not
     * 
