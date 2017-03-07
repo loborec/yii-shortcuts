@@ -536,5 +536,25 @@
         return DValidator::validate($model, $data);   
     }
 
+    
+    /**
+     * Checks if the given password is correct.
+     * @param string the password to be validated
+     * @return boolean whether the password is valid
+     */
+    function validate_password($entered_password, $user_password)
+    {
+        return CPasswordHelper::verifyPassword($entered_password, $user_password);
+    }
+
+    /**
+     * Generates the password hash.
+     * @param string password
+     * @return string hash
+     */
+    function hash_password($password)
+    {
+        return CPasswordHelper::hashPassword($password);
+    }
 
 
